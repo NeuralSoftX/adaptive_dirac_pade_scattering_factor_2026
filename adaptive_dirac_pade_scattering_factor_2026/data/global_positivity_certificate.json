@@ -1,0 +1,226 @@
+{
+  "coefficient_file": "coefficients.h5",
+  "coefficient_sha256": "4d623613d3fe475211d1b78b7965d9604bb8748f9fcfe74700d0ffe3b345cc78",
+  "delivery_precision": "float32",
+  "method": {
+    "finite_relative_tolerance": 1e-12,
+    "real_finite": "adaptive monotone-component interval lower bounds",
+    "real_tail": "positive leading exponential-polynomial dominance",
+    "reciprocal": "exact rational common-denominator polynomial root isolation",
+    "reciprocal_diagnostic_grid": {
+      "points": 40002,
+      "x_equals_g_squared_max": 1e+24,
+      "x_equals_g_squared_min": 1e-20
+    },
+    "tail_finite_overlap_factor": 1.05,
+    "tail_subleading_over_leading_target": 0.24
+  },
+  "projected_potential_corollary": "V(R)>0 for R>0 because it is the line integral of V(r)>0.",
+  "real_space": {
+    "adaptive_dirac_pade": {
+      "rho": {
+        "certified_records": 118,
+        "largest_tail_radius": {
+          "atomic_number": 99,
+          "leading_group": "adaptive_hydrogenic:b=7.34131908",
+          "leading_relative_margin": 0.76,
+          "monotonic_onset_angstrom": 0.000254060642470945,
+          "radius_angstrom": 12.794858381676647,
+          "subleading_over_leading": 0.24000000000000005
+        },
+        "total_accepted_intervals": 47969,
+        "worst_finite_enclosure": {
+          "accepted_intervals": 835,
+          "atomic_number": 97,
+          "maximum_depth": 17,
+          "radius_end_angstrom": 12.997715876162266,
+          "required_relative_tolerance": 1e-12,
+          "smallest_relative_lower_bound": 1.0091160007931717e-07
+        }
+      },
+      "w": {
+        "certified_records": 118,
+        "largest_tail_radius": {
+          "atomic_number": 99,
+          "leading_group": "adaptive_hydrogenic:b=7.34131908",
+          "leading_relative_margin": 0.76,
+          "monotonic_onset_angstrom": 0.0,
+          "radius_angstrom": 11.926203525747507,
+          "subleading_over_leading": 0.24
+        },
+        "total_accepted_intervals": 6156,
+        "worst_finite_enclosure": {
+          "accepted_intervals": 87,
+          "atomic_number": 98,
+          "maximum_depth": 12,
+          "radius_end_angstrom": 3.2743265454884107,
+          "required_relative_tolerance": 1e-12,
+          "smallest_relative_lower_bound": 8.22338478913766e-06
+        }
+      }
+    },
+    "adaptive_hydrogenic": {
+      "rho": {
+        "certified_records": 118,
+        "largest_tail_radius": {
+          "atomic_number": 55,
+          "leading_group": "adaptive_hydrogenic:b=13.2733555",
+          "leading_relative_margin": 0.7600000000000069,
+          "monotonic_onset_angstrom": 0.0,
+          "radius_angstrom": 16.413861118718536,
+          "subleading_over_leading": 0.2399999999999931
+        },
+        "total_accepted_intervals": 60639,
+        "worst_finite_enclosure": {
+          "accepted_intervals": 908,
+          "atomic_number": 100,
+          "maximum_depth": 17,
+          "radius_end_angstrom": 13.075287647307297,
+          "required_relative_tolerance": 1e-12,
+          "smallest_relative_lower_bound": 1.3932160010153412e-07
+        }
+      },
+      "w": {
+        "certified_records": 118,
+        "largest_tail_radius": {
+          "atomic_number": 55,
+          "leading_group": "adaptive_hydrogenic:b=13.2733555",
+          "leading_relative_margin": 0.76,
+          "monotonic_onset_angstrom": 0.0,
+          "radius_angstrom": 15.247481573350724,
+          "subleading_over_leading": 0.24
+        },
+        "total_accepted_intervals": 8757,
+        "worst_finite_enclosure": {
+          "accepted_intervals": 216,
+          "atomic_number": 117,
+          "maximum_depth": 12,
+          "radius_end_angstrom": 0.9962231307974233,
+          "required_relative_tolerance": 1e-12,
+          "smallest_relative_lower_bound": 1.6908327784891315e-07
+        }
+      }
+    },
+    "five_term_hydrogenic": {
+      "rho": {
+        "certified_records": 118,
+        "largest_tail_radius": {
+          "atomic_number": 11,
+          "leading_group": "adaptive_hydrogenic:b=8.68308544",
+          "leading_relative_margin": 0.76,
+          "monotonic_onset_angstrom": 0.0,
+          "radius_angstrom": 13.801196132267018,
+          "subleading_over_leading": 0.24
+        },
+        "total_accepted_intervals": 2973,
+        "worst_finite_enclosure": {
+          "accepted_intervals": 1,
+          "atomic_number": 46,
+          "maximum_depth": 0,
+          "radius_end_angstrom": 2.6759020172430277,
+          "required_relative_tolerance": 1e-12,
+          "smallest_relative_lower_bound": 1.1126309158916246e-09
+        }
+      },
+      "w": {
+        "certified_records": 118,
+        "largest_tail_radius": {
+          "atomic_number": 11,
+          "leading_group": "adaptive_hydrogenic:b=8.68308544",
+          "leading_relative_margin": 0.76,
+          "monotonic_onset_angstrom": 0.0,
+          "radius_angstrom": 12.856133229581157,
+          "subleading_over_leading": 0.24000000000000005
+        },
+        "total_accepted_intervals": 601,
+        "worst_finite_enclosure": {
+          "accepted_intervals": 19,
+          "atomic_number": 12,
+          "maximum_depth": 5,
+          "radius_end_angstrom": 3.8873517134468747,
+          "required_relative_tolerance": 1e-12,
+          "smallest_relative_lower_bound": 0.0003572446682890541
+        }
+      }
+    }
+  },
+  "reciprocal": {
+    "adaptive_dirac_pade": {
+      "certified_polynomials": 236,
+      "maximum_numerator_degree": 30,
+      "minimum_sampled_relative_margin": {
+        "fe": {
+          "atomic_number": 118,
+          "g_inverse_angstrom": 27.23014788695196,
+          "location": "grid",
+          "relative_margin": 0.007916538868204214
+        },
+        "fx": {
+          "atomic_number": 113,
+          "g_inverse_angstrom": 5.51442202381744,
+          "location": "grid",
+          "relative_margin": 0.00287430139857527
+        }
+      },
+      "positive_root_count": 0,
+      "zero_root_count": 0
+    },
+    "adaptive_hydrogenic": {
+      "certified_polynomials": 236,
+      "maximum_numerator_degree": 29,
+      "minimum_sampled_relative_margin": {
+        "fe": {
+          "atomic_number": 113,
+          "g_inverse_angstrom": 23.900115514847318,
+          "location": "grid",
+          "relative_margin": 0.004431882813639675
+        },
+        "fx": {
+          "atomic_number": 113,
+          "g_inverse_angstrom": 4.9453837789441355,
+          "location": "grid",
+          "relative_margin": 0.0017165274422486921
+        }
+      },
+      "positive_root_count": 0,
+      "zero_root_count": 0
+    },
+    "five_term_hydrogenic": {
+      "certified_polynomials": 236,
+      "maximum_numerator_degree": 9,
+      "minimum_sampled_relative_margin": {
+        "fe": {
+          "atomic_number": 18,
+          "g_inverse_angstrom": 6.979109301999336,
+          "location": "grid",
+          "relative_margin": 0.04841548431966985
+        },
+        "fx": {
+          "atomic_number": 33,
+          "g_inverse_angstrom": 8.032486420168896,
+          "location": "grid",
+          "relative_margin": 0.018467680448009748
+        }
+      },
+      "positive_root_count": 0,
+      "zero_root_count": 0
+    }
+  },
+  "schema_version": 1,
+  "scope": {
+    "elements_per_model": 118,
+    "models": [
+      "adaptive_dirac_pade",
+      "adaptive_hydrogenic",
+      "five_term_hydrogenic"
+    ],
+    "real_domains": {
+      "rho": "finite r >= 0; limit 0 from above as r -> infinity",
+      "w": "W=rV on finite r >= 0, equivalent to V>0 for r>0; limit 0 from above as r -> infinity"
+    },
+    "reciprocal_domains": {
+      "fe": "finite g >= 0; limit 0 from above as g -> infinity",
+      "fx": "finite g >= 0; limit 0 from above as g -> infinity"
+    }
+  }
+}

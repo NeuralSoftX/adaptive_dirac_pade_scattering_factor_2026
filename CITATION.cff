@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use these scattering-factor tables or the code, please cite the manuscript."
+title: "Scattering factors 2026"
+type: dataset
+authors:
+  - family-names: "Lobato"
+    given-names: "Ivan"
+    affiliation: "NeuralSoftX; EMAT, University of Antwerp; University of Oxford"
+  - family-names: "Zhang"
+    given-names: "Z."
+    affiliation: "AI for Science Institute, Beijing, China"
+  - family-names: "Van Aert"
+    given-names: "Sandra"
+    affiliation: "EMAT and NANOlight Centre of Excellence, University of Antwerp"
+  - family-names: "Kirkland"
+    given-names: "Angus I."
+    affiliation: "Rosalind Franklin Institute; University of Oxford; Electron Physical Science Imaging Centre, Diamond Light Source Ltd."
+repository-code: "https://github.com/NeuralSoftX/adaptive_dirac_pade_scattering_factor_2026"
+license: "Apache-2.0"
+preferred-citation:
+  type: article
+  title: "Updated all-electron Dirac–Fock densities and an element-adaptive parameterisation of scattering factors and potentials for neutral atoms"
+  authors:
+    - family-names: "Lobato"
+      given-names: "Ivan"
+      affiliation: "NeuralSoftX; EMAT, University of Antwerp; University of Oxford"
+    - family-names: "Zhang"
+      given-names: "Z."
+      affiliation: "AI for Science Institute, Beijing, China"
+    - family-names: "Van Aert"
+      given-names: "Sandra"
+      affiliation: "EMAT and NANOlight Centre of Excellence, University of Antwerp"
+    - family-names: "Kirkland"
+      given-names: "Angus I."
+      affiliation: "Rosalind Franklin Institute; University of Oxford; Electron Physical Science Imaging Centre, Diamond Light Source Ltd."
+  year: 2026
+  journal: "Acta Crystallographica Section A"
+  url: "https://arxiv.org/abs/2608.14934v1"
+  notes: "Submitted to Acta Crystallographica Section A; public preprint arXiv:2608.14934v1. Journal acceptance is not established."
