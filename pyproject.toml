@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "adaptive-dirac-pade-scattering-factor-2026"
+version = "1.0.0"
+description = "Element-adaptive scattering factors, densities and potentials for neutral atoms"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "Apache-2.0" }
+authors = [
+    { name = "Ivan Lobato / NeuralSoftX", email = "ivan.lobato@neuralsoftx.com" },
+]
+dependencies = [
+    "h5py==3.15.1",
+    "matplotlib==3.10.8",
+    "numpy==2.3.5",
+    "scipy==1.16.3",
+    "sympy==1.14.0",
+]
+
+[project.urls]
+Repository = "https://github.com/NeuralSoftX/adaptive_dirac_pade_scattering_factor_2026"
+
+[project.scripts]
+adaptive-dirac-pade-scattering-factor-plot-atom = "adaptive_dirac_pade_scattering_factor_2026.diagnostics:main"
+adaptive-dirac-pade-scattering-factor-validate = "adaptive_dirac_pade_scattering_factor_2026.validation:main"
+
+[tool.setuptools.packages.find]
+include = ["adaptive_dirac_pade_scattering_factor_2026*"]
+
+[tool.setuptools.package-data]
+adaptive_dirac_pade_scattering_factor_2026 = [
+    "data/*.h5",
+    "data/*.json",
+    "data/coefficients_txt/*.txt",
+    "data/reference/*.h5",
+]

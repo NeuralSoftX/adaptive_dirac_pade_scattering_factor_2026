@@ -1,0 +1,21 @@
+# Copyright 2026 Ivan Lobato / NeuralSoftX
+# SPDX-License-Identifier: Apache-2.0
+# Email: ivan.lobato@neuralsoftx.com
+
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+.DS_Store
+.codex/
+.claude/
+.cursor/
+.idea/
+.vscode/
+AGENTS.md
+CLAUDE.md
+*.pdf
+.*.tmp
