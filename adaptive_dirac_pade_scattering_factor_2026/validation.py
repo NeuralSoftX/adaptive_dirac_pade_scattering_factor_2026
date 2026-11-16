@@ -614,7 +614,8 @@ def _reciprocal_certificate(
     if workers == 1:
         root_results = [_reciprocal_root_task(task) for task in tasks]
     else:
-        with mp.Pool(processes=workers) as pool:
+        # spawn, not fork: a forked worker of a threaded parent (BLAS threads) can deadlock
+        with mp.get_context('spawn').Pool(processes=workers) as pool:
             root_results = list(
                 pool.imap_unordered(_reciprocal_root_task, tasks, chunksize=1)
             )

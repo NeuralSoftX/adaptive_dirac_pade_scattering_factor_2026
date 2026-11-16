@@ -161,13 +161,13 @@ the derived quantities
 
 ```math
 b'_t = \frac{2\pi}{\sqrt{b_t}}, \quad
-\tilde a_t = \frac{2\pi^2 a_B\, a_t}{b_t}, \quad
-\hat a_t = \frac{2\pi^4 a_B\, a_t}{b_t^{5/2}}, \quad
+\tilde a_t = \frac{2\pi^2 a_0\, a_t}{b_t}, \quad
+\hat a_t = \frac{2\pi^4 a_0\, a_t}{b_t^{5/2}}, \quad
 a'_t = \frac{\pi^2 a_t}{\kappa_e\, b_t^{3/2}}, \quad
 a''_t = 2 a'_t
 ```
 
-with $a_B = 0.52917721077817892$ Å and $1/\kappa_e = 47.877642131544313031$.
+with $a_0 = 0.52917721077817892$ Å and $1/\kappa_e = 47.877642131544313031$.
 
 The quantities are
 
@@ -211,9 +211,9 @@ coefficient of the expansion of $f_x$ about $g=0$):
 
 ```math
 \begin{aligned}
-\sum_{i=1}^{M}\frac{a_i}{b_i} + \frac{a_\mathrm{DP}}{b_\mathrm{DP}} &= \frac{Z}{2\pi^2 a_B}, \\
+\sum_{i=1}^{M}\frac{a_i}{b_i} + \frac{a_\mathrm{DP}}{b_\mathrm{DP}} &= \frac{Z}{2\pi^2 a_0}, \\
 \sum_{i=1}^{M} 2 a_i + 3 a_\mathrm{DP} &= f_e(0), \\
-\sum_{i=1}^{M} a_i b_i + 2 a_\mathrm{DP} b_\mathrm{DP} &= \frac{\pi^2 Z \langle r^4\rangle}{45 a_B}
+\sum_{i=1}^{M} a_i b_i + 2 a_\mathrm{DP} b_\mathrm{DP} &= \frac{\pi^2 Z \langle r^4\rangle}{45 a_0}
 \end{aligned}
 ```
 
