@@ -146,7 +146,10 @@ def electron_scattering_factor(
     coefficients: Coefficients,
     g: float | np.ndarray,
 ) -> float | np.ndarray:
-    """Evaluate the electron scattering factor ``f_e(g)`` in ångström."""
+    """Evaluate the electron scattering factor ``f_e(g)`` in ångström.
+    ``g`` is the reciprocal-space magnitude in inverse ångström,
+    ``g = 2 sin(theta_B)/lambda = 1/d``.
+    """
     values, shape, scalar = _coordinates(g, name="g", allow_zero=True)
     g2 = values[:, None] ** 2
     a, b = coefficients.a, coefficients.b
@@ -162,7 +165,10 @@ def xray_scattering_factor(
     coefficients: Coefficients,
     g: float | np.ndarray,
 ) -> float | np.ndarray:
-    """Evaluate the X-ray scattering factor ``f_x(g)`` in electrons."""
+    """Evaluate the X-ray scattering factor ``f_x(g)`` in electrons.
+    ``g`` is the reciprocal-space magnitude in inverse ångström,
+    ``g = 2 sin(theta_B)/lambda = 1/d``.
+    """
     values, shape, scalar = _coordinates(g, name="g", allow_zero=True)
     g2 = values[:, None] ** 2
     a, b = coefficients.a, coefficients.b

@@ -398,7 +398,10 @@ element:
 ## Inputs and outputs
 
 The primary inputs are an element group from the packaged `coefficients.h5` and an array of
-scattering-vector magnitudes `g` or radii `r`. The evaluators return electron
+scattering-vector magnitudes `g` or radii `r`. `g` is the magnitude of the reciprocal-space vector in Å⁻¹,
+`g = 2 sin θ_B / λ = 1/d`, where `θ_B` is the Bragg angle and `d` the lattice-plane spacing; the
+crystallographic momentum transfer is `s = sin θ_B / λ = g/2`. The widths `b` are in Å² and are
+used with `g`; a basis written in `s` uses the width `4b`. The evaluators return electron
 scattering factors, X-ray scattering factors, electron densities or potentials
 in the units listed above. The packaged `reference_dirac_fock.h5` contains the
 corresponding sampled relativistic reference arrays: exact point-Coulomb Dirac
